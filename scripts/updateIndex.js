@@ -7,9 +7,13 @@ const extractTag = (str) => {
         const result = {}
         metadataBlock.split("\n").forEach(line => {
             if (line && line !== "" && line.indexOf(":") > -1) {
-                const field = line.split(":")[1].trim();
-                const value = line.split(":")[0].trim()
-                result[value] = field;
+                let value = line.split(":").slice(1).join(":").trim();
+                const field = line.split(":")[0].trim()
+                if (field ==="tags"){
+                    value = value.split(",")
+                    value = value.map(tag => tag.trim())
+                }
+                result[field] = value;
             }
         })
         return result
@@ -29,7 +33,9 @@ files.forEach((file) => {
     console.log(file);
     const data = extractTag(fs.readFileSync(filesPath + file, 'utf8'))
     if (data.config !== "true"){
+        data.id = file.replace(".md","")
         configFile.push(data);
+
     }    
 });
 

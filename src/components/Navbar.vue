@@ -1,6 +1,6 @@
 <template>
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <router-link to="/" class="navbar-brand">Hugo J. Bello</router-link>
+  <router-link to="/" class="navbar-brand title">Hugo J. Bello</router-link>
   <!-- eslint-disable-next-line -->
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -26,6 +26,9 @@
 .username{
   margin-left:30px;
   padding:5px
+}
+.title{
+  margin-left: 20px;
 }
 </style>
 
