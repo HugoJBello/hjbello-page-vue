@@ -32,19 +32,37 @@ export default {
 </script>
 
 <style scoped lang="scss">
-.imgContainer {
-  overflow: hidden;
-  width: 400px;
-  height: 200px;
-}
-.imgContainer img {
-  width: 400px;
-  height: 200px;
-}
-.header-container{
-  //max-height: 200px;
-}
+
+
+@media screen and (min-width: 100px) {
 .entry-title-card{
-  max-width: 1000px;
+  max-width: 200px;
+}
+}
+
+
+@media screen and (min-width: 500px) {
+.entry-title-card{
+  max-width: 250px;
+}
+}
+
+
+@media screen and (min-width: 1000px) {
+.entry-title-card{
+  max-width: 300px;
+}
+}
+
+
+@media screen and (min-width: 1200px) {
+.entry-title-card{
+  max-width: 400px;
+}
+}
+
+
+.entry-title-card{
+  max-width: 200px;
 }
 </style>
