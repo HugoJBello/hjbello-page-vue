@@ -43,6 +43,6 @@ configFile.sort((a, b) => {
     return new Date(b.date) - new Date(a.date);
 });
 
-fs.writeFile(outputFile, JSON.stringify({entries:configFile}), 'utf8');
+fs.writeFile(outputFile, JSON.stringify({entries:configFile}), 'utf8', ()=>{});
 
 console.log(configFile);
