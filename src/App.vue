@@ -28,14 +28,15 @@ export default {
 }
 @media screen and (min-width: 1000px) {
   .entry {
-    margin-left: 200px;
+    margin-left: 300px;
     margin-right: 100px;
+        max-width: 700px;
   }
 }
 @media screen and (min-width: 1500px) {
   .entry {
-    margin-left: 300px;
-    margin-right: 100px;
+    margin-left: 400px;
+    max-width: 700px;
   }
 }
 
