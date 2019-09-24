@@ -18,9 +18,7 @@ Se pretende conocer la altura de los alumnos de una clase. Se seleccionan 40 alu
 
 el mínimo es 142, el máximo 188. **calcular los intervalos sobre los que agrupar los datos**.
 
-
-
-
+\[\\frac{a_i}{1+x}\]
 
 <!--
 id: ejercicios_estadistica_20190925
@@ -32,6 +30,10 @@ date: 24/09/2019
 
 <!---
 <div v-katex="'\\frac{a_i}{1+x}'"></div>
+<div v-katex:display="'\\frac{a_i}{1+x}'"></div>
+<div v-katex:display="
+'\\frac{a_i}{1+x} + \\frac{\\int^2_1 f(x)}{y}'
+"></div>
 -->
 
 <!--
