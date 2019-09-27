@@ -11,6 +11,9 @@
       <li class="nav-item">
         <router-link to="/about" class="nav-link">About</router-link>
       </li>
+      <li v-for="(value, index) in mainTags" v-bind:key="index" class="nav-item">
+        <router-link :to="{ path: `/index/${value}`}" class="nav-link">{{value}}</router-link>
+      </li>
     </ul>
     <div class="form-inline my-2 my-lg-0">
   
@@ -33,7 +36,12 @@
 import { mapActions } from 'vuex'
 
 export default {
-  name: 'Navbar'
+  name: 'Navbar',
+  computed : {
+    mainTags:function(){
+      return this.$store.state.mainTags;
+    }
+  },
 
 };
 </script>

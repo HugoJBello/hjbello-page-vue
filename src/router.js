@@ -1,6 +1,8 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import Home from './views/Home.vue'
+import SpecialTagIndex from './components/SpecialTagIndex.vue'
+
 import Entries from './assets/entries.json'
 
 Vue.use(Router)
@@ -13,6 +15,11 @@ export default new Router({
       path: '/',
       name: 'home',
       component: Home
+    },
+    {
+      path: '/index/:tag',
+      name: 'index',
+      component: SpecialTagIndex
     },
     {
       path: '/about',

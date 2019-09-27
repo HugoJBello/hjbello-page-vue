@@ -18,11 +18,9 @@ Se pretende conocer la altura de los alumnos de una clase. Se seleccionan 40 alu
 
 el mínimo es 142, el máximo 188. **calcular los intervalos sobre los que agrupar los datos**.
 
-\[\\frac{a_i}{1+x}\]
-
 <!--
 id: ejercicios_estadistica_20190925
-tags: estadistica, clases, ejercicios
+tags: estadistica, teaching, ejercicios
 title: Ejercicios sencillos 20190925
 date: 24/09/2019
 -->

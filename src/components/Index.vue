@@ -1,8 +1,8 @@
 <template>
-  <div class="index card-deck">
+  <div class="index">
     <div v-for="(value, index) in entries" v-bind:key="index">
       <router-link :to="{ path: `entry/${value.id}`}" class="nav-link">
-        <div class="card text-center entry-title-card">
+        <div class="card text-center entry-title-card-index">
           <div class="imgContainer" v-if="value.image">
             <img :src=value.image class="card-img-top centered-and-cropped">
           </div>
@@ -17,52 +17,28 @@
 </template>
 
 <script>
-// @ is an alias to /src
-import entries from "@/assets/entries.json";
 
 export default {
   name: "index",
   components: {},
   computed: {
     entries() {
-      return entries.entries;
+      return this.$store.state.entries;
+    },
+  },
+  mounted() {
     }
-  }
 };
 </script>
 
 <style scoped lang="scss">
 
 
-@media screen and (min-width: 100px) {
-.entry-title-card{
-  max-width: 200px;
-}
-}
-
-
-@media screen and (min-width: 500px) {
-.entry-title-card{
-  max-width: 250px;
-}
+.entry-title-card-index{
+  margin-bottom:20px;
+  margin-left:10px;
+  margin-right: 10px;
+  margin-top:10px;
 }
 
-
-@media screen and (min-width: 1000px) {
-.entry-title-card{
-  max-width: 300px;
-}
-}
-
-
-@media screen and (min-width: 1200px) {
-.entry-title-card{
-  max-width: 400px;
-}
-}
-
-
-.entry-title-card{
-  max-width: 200px;
-}
 </style>
