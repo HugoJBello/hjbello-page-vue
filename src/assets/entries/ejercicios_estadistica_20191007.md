@@ -28,7 +28,7 @@ Se quiere averiguar el peso medio de una poblacion. Se pesan 15 personas y se ob
 
 **calcular la mediana**.
 
-#### Ejercicio 2
+#### Ejercicio 3
 Se quiere conocer el color favorito de una población. Se pregunta por el color favorito a un grupo de individuos
 
 
