@@ -26,7 +26,18 @@ Se quiere averiguar el peso medio de una poblacion. Se pesan 15 personas y se ob
 72.54 63.43 69.54
 ```
 
-**calcular la mediana y la moda**.
+**calcular la mediana**.
+
+#### Ejercicio 2
+Se quiere conocer el color favorito de una población. Se pregunta por el color favorito a un grupo de individuos
+
+
+```
+rojo rojo rojo azul verde verde verde
+amarillo rosa azul rojo verde
+```
+**calcular la moda. ¿Se puede calcular la mediana?**.
+
 
 
 <!--
