@@ -1,4 +1,4 @@
-## Ejercicios sencillos moda y mediana
+## Ejercicios sencillos 2
 
 #### Ejercicio 1
 se pregunta a un grupo de personas las horas que duermen al día 
@@ -23,10 +23,10 @@ Se quiere averiguar el peso medio de una poblacion. Se pesan 15 personas y se ob
 ```
 71.40 72.29 71.00 71.54 70.33 73.72
 67.89 68.04 69.66 70.71 69.72 72.50 
-72.54 63.43 69.54
+72.54 63.43 69.54 62.10
 ```
 
-**calcular la mediana**.
+**calcular la mediana y la media winsorizada al 10%**.
 
 #### Ejercicio 3
 Se quiere conocer el color favorito de una población. Se pregunta por el color favorito a un grupo de individuos
@@ -57,11 +57,10 @@ date: 07/10/2019
 -->
 
 <!--
-147
-154
-161
-168
-175
-182
-189
+62.1, 63.43, 67.89,
+68.04, 69.54, 69.66,
+69.72, 70.33, 70.71,
+71,  71.4, 71.54,
+72.29,  72.5, 72.54,
+73.72
 -->
