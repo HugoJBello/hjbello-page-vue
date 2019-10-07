@@ -25,7 +25,7 @@ const extractTag = (str) => {
 filesPath = './src/assets/entries/';
 outputFile = './src/assets/entries.json';
 
-const configFile = []
+let configFile = []
 
 const files = fs.readdirSync(filesPath);
 
@@ -39,8 +39,14 @@ files.forEach((file) => {
     }    
 });
 
-configFile.sort((a, b) => {
-    return new Date(b.date) - new Date(a.date);
+const getDate = (string) => {
+    const parts = string.split('/');
+    return new Date(parts[2], parts[1] - 1, parts[0]); 
+}
+
+configFile = configFile.sort((a, b) => {
+    console.log(getDate(b.date))
+    return getDate(b.date) - getDate(a.date);
 });
 
 fs.writeFile(outputFile, JSON.stringify({entries:configFile}), 'utf8', ()=>{});
