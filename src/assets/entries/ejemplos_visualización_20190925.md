@@ -12,6 +12,14 @@ https://www.eleconomista.es/economia/noticias/9169491/05/18/Analisis-de-los-sala
 
 https://elpais.com/economia/2019/06/21/actualidad/1561105583_765818.html
 
+percentiles en IQ
+
+https://iqtestprep.com/130-iq-score-percentile/
+
+https://www.iqcomparisonsite.com/iqtable.aspx
+
+https://www.edubloxtutor.com/iq-test-scores/
+
 <!--
 tags: estadistica, clases, ejercicios
 title: Ejemplos visualización 20190925
