@@ -1,5 +1,7 @@
 ## Ejercicios sencillos 2
 
+[apuntes](https://drive.google.com/open?id=13bNDS6c3sN3wVr0YrYo2i_Sy7xHwCHhu)
+
 #### Ejercicio 1
 se pregunta a un grupo de personas las horas que duermen al día 
 
