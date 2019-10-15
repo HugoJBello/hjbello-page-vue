@@ -15,8 +15,25 @@ calcular:
 - la media, la mediana
 - los cuartiles 1 y 3 (<span v-katex="'Q_1'"></span> y <span v-katex="'Q_3'"></span>)
 - el recorrido, el recorrido intercuartílico.
-- la desviación mediana, la desviación media, la varianza
+- la desviación mediana
 - la MEDA
+
+
+#### Ejercicio 2
+Dados los siguientes datos agrupados 
+
+intervalos &nbsp;&nbsp;| frecuencias (<span v-katex="'n_i'"></span>) 
+:------------- | ------------- | ---
+[2, 4) | 2       
+[4, 6) | 8      
+[6, 8) | 9       
+[8, 10) | 10       
+[10, 12) | 9        
+[12, 14] | 8        
+|
+
+calcular:
+- la desviación media, la varianza
 <!--
 id: ejercicios_estadistica_20191011
 tags: estadistica, teaching, ejercicios
