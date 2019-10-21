@@ -47,7 +47,7 @@ Para medir la dispersión de una variable estadística es mejor usar:
 - la desviación típica
 - ninguna de las anteriores
 
-#### Ejercicio 3 (test)
+#### Ejercicio 4 (test)
 Tomo dos muestras <span v-katex="'(x_i)'"></span> y <span v-katex="'(y_i)'"></span>, la primera tiene desviación típica 3 y la 
 segunda 5, ¿Cual de las dos está más dispersa?
 - la primera <span v-katex="'(x_i)'"></span>
