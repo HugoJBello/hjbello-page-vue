@@ -16,6 +16,8 @@ calcular:
 - la desviación típica
 - el recorrido relativo y el recorrido intercuatílico relativo.
 - el coeficiente de variación media y el coeficiente de variación mediana .
+- momento central de orden 3
+
 
 
 #### Ejercicio 2
@@ -36,6 +38,23 @@ calcular:
 - la desviación media, la varianza
 - momento respecto al origen de orden 3
 - momento central de orden 4
+
+
+#### Ejercicio 3 (test)
+Para medir la dispersión de una variable estadística es mejor usar:
+- la mediana
+- la moda
+- la desviación típica
+- ninguna de las anteriores
+
+#### Ejercicio 3 (test)
+Tomo dos muestras <span v-katex="'(x_i)'"></span> y <span v-katex="'(y_i)'"></span>, la primera tiene desviación típica 3 y la 
+segunda 5, ¿Cual de las dos está más dispersa?
+- la primera <span v-katex="'(x_i)'"></span>
+- la segunda  <span v-katex="'(y_i)'"></span>
+- ambas están igualmente dispersas
+
+
 <!--
 id: ejercicios_estadistica_20191017
 tags: estadistica, teaching, ejercicios
