@@ -100,4 +100,190 @@ binnedSamples
 [1] 1.15894
 > 4/5
 [1] 0.8
+
+
+
+
+
+octave:1> x = [1,2,8,10,7,4,1]
+x =
+
+    1    2    8   10    7    4    1
+
+octave:2> n=x
+n =
+
+    1    2    8   10    7    4    1
+
+octave:3> n
+n =
+
+    1    2    8   10    7    4    1
+
+octave:4> x = [1,3,5,7,9,11,13]
+x =
+
+    1    3    5    7    9   11   13
+
+octave:5> x*n'
+ans =  237
+octave:6> x*diag(n)
+ans =
+
+    1    6   40   70   63   44   13
+
+octave:7> 5/7
+ans =  0.71429
+octave:8> 5/7
+ans =  0.71429
+octave:9> ans * 10
+ans =  7.1429
+octave:10> n
+n =
+
+    1    2    8   10    7    4    1
+
+octave:11> x*diag(n)
+ans =
+
+    1    6   40   70   63   44   13
+
+octave:12> n*diag(1,1,1,1,1)
+error: Invalid call to diag.  Correct usage is:
+
+ -- M = diag (V)
+ -- M = diag (V, K)
+ -- M = diag (V, M, N)
+ -- V = diag (M)
+ -- V = diag (M, K)
+
+Additional help for built-in functions and operators is
+available in the online version of the manual.  Use the command
+'doc <topic>' to search the manual index.
+
+Help and information about Octave is also available on the WWW
+at https://www.octave.org and via the help@octave.org
+mailing list.
+octave:12> n
+n =
+
+    1    2    8   10    7    4    1
+
+octave:13> n*diag(1,1,1,1,1,1)
+error: Invalid call to diag.  Correct usage is:
+
+ -- M = diag (V)
+ -- M = diag (V, K)
+ -- M = diag (V, M, N)
+ -- V = diag (M)
+ -- V = diag (M, K)
+
+Additional help for built-in functions and operators is
+available in the online version of the manual.  Use the command
+'doc <topic>' to search the manual index.
+
+Help and information about Octave is also available on the WWW
+at https://www.octave.org and via the help@octave.org
+mailing list.
+octave:13> n*diag([1,1,1,1,1,1])
+error: operator *: nonconformant arguments (op1 is 1x7, op2 is 6x6)
+octave:13> n*diag([1,1,1,1,1,1,1])
+ans =
+
+    1    2    8   10    7    4    1
+
+octave:14> n
+n =
+
+    1    2    8   10    7    4    1
+
+octave:15> one = [1,1,1,1,1,1,1]
+one =
+
+   1   1   1   1   1   1   1
+
+octave:16> n*one'
+ans =  33
+octave:17> x*n/33
+error: operator *: nonconformant arguments (op1 is 1x7, op2 is 1x7)
+octave:17> x*n'/33
+ans =  7.1818
+octave:18> med = ans
+med =  7.1818
+octave:19> mean = med
+mean =  7.1818
+octave:20> x - mean
+ans =
+
+  -6.18182  -4.18182  -2.18182  -0.18182   1.81818   3.81818   5.81818
+
+octave:21> abs(x-mean)
+ans =
+
+   6.18182   4.18182   2.18182   0.18182   1.81818   3.81818   5.81818
+
+octave:22> abs(x-mean)*diag(n)
+ans =
+
+    6.1818    8.3636   17.4545    1.8182   12.7273   15.2727    5.8182
+
+octave:23> d = abs(x-mean)*diag(n)
+d =
+
+    6.1818    8.3636   17.4545    1.8182   12.7273   15.2727    5.8182
+
+octave:24> d*one'
+ans =  67.636
+octave:25> /33
+parse error:
+
+  syntax error
+
+>>> /33
+    ^
+
+octave:25> d*one'/33
+ans =  2.0496
+octave:26> x
+x =
+
+    1    3    5    7    9   11   13
+
+octave:27> x.*x
+ans =
+
+     1     9    25    49    81   121   169
+
+octave:28> x2 =ans
+x2 =
+
+     1     9    25    49    81   121   169
+
+octave:29> x.*x.*x
+ans =
+
+      1     27    125    343    729   1331   2197
+
+octave:30> x3=ans
+x3 =
+
+      1     27    125    343    729   1331   2197
+
+octave:31> x3*n'
+ans =  17109
+octave:32> ans/33
+ans =  518.45
+octave:33> x.*x.*x.*x
+ans =
+
+       1      81     625    2401    6561   14641   28561
+
+octave:34> x4 = ans
+x4 =
+
+       1      81     625    2401    6561   14641   28561
+
+octave:35> x4*n'/33
+ans =  4915.9
+octave:36> 
 -->
