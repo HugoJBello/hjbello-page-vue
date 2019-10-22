@@ -40,19 +40,35 @@ calcular:
 - momento central de orden 4
 
 
-#### Ejercicio 3 (test)
+#### Ejercicio 3
+dadas las siguientes muestras:
+```
+3  5  9  7  9  6  4
+```
+
+y
+
+```
+3  5  3  5  5  6  3
+```
+
+usar el coeficiente de variación media para decidir cual de las dos es más dispersa
+
+#### Ejercicio 4 (test)
 Para medir la dispersión de una variable estadística es mejor usar:
 - la mediana
 - la moda
 - la desviación típica
 - ninguna de las anteriores
 
-#### Ejercicio 4 (test)
+#### Ejercicio 5 (test)
 Tomo dos muestras <span v-katex="'(x_i)'"></span> y <span v-katex="'(y_i)'"></span>, la primera tiene desviación típica 3 y la 
 segunda 5, ¿Cual de las dos está más dispersa?
 - la primera <span v-katex="'(x_i)'"></span>
 - la segunda  <span v-katex="'(y_i)'"></span>
 - ambas están igualmente dispersas
+
+
 
 
 <!--
