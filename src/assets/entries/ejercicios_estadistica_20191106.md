@@ -43,7 +43,7 @@ La longitud de caja central del diagrama de caja y bigotes (boxplot) representa:
 
 - Al introducir generar un pin en el banco me piden que me invente un número de seis dígitos. ¿Cuantos pin posibles hay?
 
-- ¿De cuantas maneras pueden ordenarse 8 canciones en una lista de spotify?
+- ¿De cuantas maneras pueden ordenarse 8 canciones en una lista de spotify? 
 <!--
 id: ejercicios_estadistica_20191105
 tags: estadistica, teaching, ejercicios
