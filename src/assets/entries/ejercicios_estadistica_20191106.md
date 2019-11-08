@@ -41,9 +41,20 @@ La longitud de caja central del diagrama de caja y bigotes (boxplot) representa:
 
 - En una baraja española, si saco 2 cartas consecutivas ¿cuantas combinaciones posibles de cartas hay?
 
+- En una baraja inglesa (52 cartas), si saco 3 cartas consecutivas ¿cuantas combinaciones posibles de cartas hay?
+  
+- ¿Usando los números 4,5,6 y 7 cuantas cifras puedo obtener sin repetir ninguno?
+
 - Al introducir generar un pin en el banco me piden que me invente un número de seis dígitos. ¿Cuantos pin posibles hay?
 
 - ¿De cuantas maneras pueden ordenarse 8 canciones en una lista de spotify? 
+
+#### Ejercicio 6
+Usar el binomio de newton para calcular la formula general de
+-   <span v-katex="'(a+b)^3'"></span>
+-   <span v-katex="'(a+b)^4'"></span>
+
+
 <!--
 id: ejercicios_estadistica_20191105
 tags: estadistica, teaching, ejercicios
