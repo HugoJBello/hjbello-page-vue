@@ -48,11 +48,18 @@ La longitud de caja central del diagrama de caja y bigotes (boxplot) representa:
 - Al introducir generar un pin en el banco me piden que me invente un número de seis dígitos. ¿Cuantos pin posibles hay?
 
 - ¿De cuantas maneras pueden ordenarse 8 canciones en una lista de spotify? 
+  
+- Tenemos 10 discos, uno de los cuales es de vetusta morla. ¿De cuantas maneras pueden ordenarse los 10 discos en una estantería sin poner primero el de vetusta? ¿Y sin ponerlo el último? ¿Y sin ponerlo ni en el primer ni el último lugar?
+
 
 #### Ejercicio 6
 Usar el binomio de newton para calcular la formula general de
--   <span v-katex="'(a+b)^3'"></span>
+-   <span v-katex="'(a-b)^3'"></span>
 -   <span v-katex="'(a+b)^4'"></span>
+-   <span v-katex="'(a+b)^5'"></span>
+
+#### Ejercicio 7
+Usar calcular <span v-katex="'6\\choose 3'"></span>,  <span v-katex="'6\\choose 5'"></span> usando el triangulo de pascal
 
 
 <!--
