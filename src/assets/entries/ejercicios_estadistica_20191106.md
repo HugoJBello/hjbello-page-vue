@@ -50,6 +50,8 @@ La longitud de caja central del diagrama de caja y bigotes (boxplot) representa:
 - ¿De cuantas maneras pueden ordenarse 8 canciones en una lista de spotify? 
   
 - Tenemos 10 discos, uno de los cuales es de vetusta morla. ¿De cuantas maneras pueden ordenarse los 10 discos en una estantería sin poner primero el de vetusta? ¿Y sin ponerlo el último? ¿Y sin ponerlo ni en el primer ni el último lugar?
+  
+- ¿De cuantas maneras se pueden ordenar 10 discos en una estantería si 3 son de un mismo grupo y queremos que estén todos juntos?
 
 
 #### Ejercicio 6
