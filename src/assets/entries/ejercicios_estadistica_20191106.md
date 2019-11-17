@@ -35,6 +35,7 @@ La longitud de caja central del diagrama de caja y bigotes (boxplot) representa:
 
 
 #### Ejercicio 5
+
 - ¿Cuantos resultados puede obtenerse al lanzar dos dados consecutivos?
 
 - Jugando al rol encontramos dados con 10 caras (denominados d10). Si tengo dos dados de 10 caras, ¿Cuántas combinaciones posibles puedo obtener en una tirada?
@@ -52,7 +53,6 @@ La longitud de caja central del diagrama de caja y bigotes (boxplot) representa:
 - Tenemos 10 discos, uno de los cuales es de vetusta morla. ¿De cuantas maneras pueden ordenarse los 10 discos en una estantería sin poner primero el de vetusta? ¿Y sin ponerlo el último? ¿Y sin ponerlo ni en el primer ni el último lugar?
   
 - ¿De cuantas maneras se pueden ordenar 10 discos en una estantería si 3 son de un mismo grupo y queremos que estén todos juntos?
-
 
 #### Ejercicio 6
 Usar el binomio de newton para calcular la formula general de
