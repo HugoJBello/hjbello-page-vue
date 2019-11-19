@@ -34,6 +34,8 @@ Para obtener un premio de primera categoría, Hay que en el boleto ganador deben
 1. Cargando una esquina de un camión tengo espacio para añadir 5 cajas más solamente. Dispongo de un gran numero de cajas de zapatos, pantalones y camisetas. ¿De cuantas maneras puedo rellenar el espacio restante en el camión?. 
 2. en una despensa hay: 10 berengenas, 10 calabacines, 10 patatas, 10 dientes de ajo, 10 cebollas. ¿Cuantas recetas de dos ingredientes (no necesariamente distintos) se pueden cocinar?
 
+
+
 <!--
 id: ejercicios_estadistica_20191117
 tags: estadistica, teaching, ejercicios
@@ -42,6 +44,19 @@ date: 17/11/2019
 -->
 
 <!--
+
+<details>
+<summary>
+Soluciones
+</summary>
+
+1. a
+   
+2. b
+
+</details>
+
+
 1. variaciones sin rep v_10,3
 2. combinaciones sin rep. c1000,3
 3. vr_14,3
