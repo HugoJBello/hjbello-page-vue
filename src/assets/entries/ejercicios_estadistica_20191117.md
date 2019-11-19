@@ -32,7 +32,7 @@ Para obtener un premio de primera categoría, Hay que en el boleto ganador deben
 
 #### Ejercicio 4
 1. Cargando una esquina de un camión tengo espacio para añadir 5 cajas más solamente. Dispongo de un gran numero de cajas de zapatos, pantalones y camisetas. ¿De cuantas maneras puedo rellenar el espacio restante en el camión?. 
-2. en una despensa hay: 10 berengenas, 10 calabacines, 10 patatas, 10 dientes de ajo, 10 cebollas. ¿Cuantas recetas de dos ingredientes (no necesariamente distintos) se pueden cocinar?
+2. Determinar el número de formas de sortear 3 premios entre 20 personas, si una misma persona puede ser otorgada más de un premio, ¿De cuantas maneras puedo repartirlo?
 
 
 
@@ -72,7 +72,8 @@ ejercicio3
 c50,5 * c12,2
 
 ejercicio4
-combianciones con rep cr_5,3
+1. combianciones con rep cr_5,3
+2. cr_20,3
 
 nchoosek(50,5)*nchoosek(12,2)
 ans =  139838160
