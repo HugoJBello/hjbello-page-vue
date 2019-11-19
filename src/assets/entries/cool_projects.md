@@ -1,6 +1,6 @@
 ## Cool Projects
 There are some interesting projects that want to list here because I had a lot of fun doing them:
-
+- I am working with the [Universal Health Chain](http://www.universal-chain.com/) Team. We are building an universal identifier for health care and donations using blockchain technology.
 - I worked for the open source project [Driver UE](https://www.driver-project.eu/). 
 This is an emergency notification system based on Apache Kafka. In particular I worked in the [Python adapter](https://github.com/DRIVER-EU/python-test-bed-adapter). I completed this work during my time at GMV.
 - Some moths ago I worked in the open source project [Peluditos OWS](https://github.com/OSW-Peludos/peluditos-project). This project tries to build a website to localize, link and analyze lost animals. The technological stack is nodejs, mongodb and react.
