@@ -7,16 +7,17 @@
 
 1. 10 deportistas participan en un evento. ¿De cuantas maneras se puede repartir los tres primeros premios?
 2. En una urna hay 1000 números de un sorteo. Se introduce la mano y se sacan tres números de una sola vez, las personas que obtengan cualquiera de esos números recibirán el mismo premio. ¿Cuantas combinaciones posibles hay de números ganadores?
-3. en una despensa hay: una berengena, un calabacín, una patata, un diente de ajo, una cebolla. ¿Cuantas recetas de tres ingredientes se pueden cocinar?
-4. tengo 10 camisetas en el armario, en la maleta solo me caben 4, ¿de cuantas maneras puedo elegirlas?
-5. tengo 10 camisetas en el armario y 5 pantalones, en la maleta solo me caben 2 camisetas y 2 pantalones, ¿de cuantas maneras puedo elegirlos?
-6. El capitán de un escuadrón de 15 soldados necesita 2 de ellos para una misión, ¿Cuantas posibilidades para elegirlos tiene?
+3. Calcular cuántos números distintos de lotería de navidad hay (5 dígitos).
+4. Calcular el número de quinielas posibles (14 partidos, símbolos 1,2,x)
+5. en una despensa hay: una berengena, un calabacín, una patata, un diente de ajo, una cebolla. ¿Cuantas recetas de tres ingredientes se pueden cocinar?
+6. tengo 10 camisetas en el armario, en la maleta solo me caben 4, ¿de cuantas maneras puedo elegirlas?
+7. tengo 10 camisetas en el armario y 5 pantalones, en la maleta solo me caben 2 camisetas y 2 pantalones, ¿de cuantas maneras puedo elegirlos?
+8. El capitán de un escuadrón de 15 soldados necesita 2 de ellos para una misión, ¿Cuantas posibilidades para elegirlos tiene?
 
 #### Ejercicio 2
 
 1. La contraseña de una caja fuerte tiene 6 caracteres (pueden ser números y letras en minusculas sin símbolos). Si quiero averiguar la contraseña, ¿cuántas posibilidades tengo que probar para estar seguro de que acierto?.
-2. Calcular cuántos números distintos de lotería de navidad hay (5 dígitos).
-3. Un barco debe colocar sobre su mástil nueve banderas de distintos colores para comunicarse. En total tiene tres banderas rojas, dos azules y cuatro verdes. ¿Cuantas de maneras posibles puede colocarlas? (es decir ¿cuántos mensajes puede enviar?)
+2. Un barco debe colocar sobre su mástil nueve banderas de distintos colores para comunicarse. En total tiene tres banderas rojas, dos azules y cuatro verdes. ¿Cuantas de maneras posibles puede colocarlas? (es decir ¿cuántos mensajes puede enviar?)
 
 
 #### Ejercicio 3
