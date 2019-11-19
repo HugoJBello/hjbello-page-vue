@@ -11,13 +11,10 @@
 4. Calcular el número de quinielas posibles (14 partidos, símbolos 1,2,x)
 5. en una despensa hay: una berengena, un calabacín, una patata, un diente de ajo, una cebolla. ¿Cuantas recetas de tres ingredientes se pueden cocinar?
 6. tengo 10 camisetas en el armario, en la maleta solo me caben 4, ¿de cuantas maneras puedo elegirlas?
-7. tengo 10 camisetas en el armario y 5 pantalones, en la maleta solo me caben 2 camisetas y 2 pantalones, ¿de cuantas maneras puedo elegirlos?
-8. El capitán de un escuadrón de 15 soldados necesita 2 de ellos para una misión, ¿Cuantas posibilidades para elegirlos tiene?
+7. El capitán de un escuadrón de 15 soldados necesita 2 de ellos para una misión, ¿Cuantas posibilidades para elegirlos tiene?
 
 #### Ejercicio 2
-
-1. La contraseña de una caja fuerte tiene 6 caracteres (pueden ser números y letras en minusculas sin símbolos). Si quiero averiguar la contraseña, ¿cuántas posibilidades tengo que probar para estar seguro de que acierto?.
-2. Un barco debe colocar sobre su mástil nueve banderas de distintos colores para comunicarse. En total tiene tres banderas rojas, dos azules y cuatro verdes. ¿Cuantas de maneras posibles puede colocarlas? (es decir ¿cuántos mensajes puede enviar?)
+Un barco debe colocar sobre su mástil nueve banderas de distintos colores para comunicarse. En total tiene tres banderas rojas, dos azules y cuatro verdes. ¿Cuantas de maneras posibles puede colocarlas? (es decir ¿cuántos mensajes puede enviar?)
 
 
 #### Ejercicio 3
@@ -33,6 +30,10 @@ Para obtener un premio de primera categoría, Hay que en el boleto ganador deben
 
 2. ¿Qué es más fácil, ganar la lotería de navidad o el euromillón?
 
+#### Ejercicio 4
+1. Cargando una esquina de un camión tengo espacio para añadir 5 cajas más solamente. Dispongo de un gran numero de cajas de zapatos, pantalones y camisetas. ¿De cuantas maneras puedo rellenar el espacio restante en el camión?. 
+2. en una despensa hay: 10 berengenas, 10 calabacines, 10 patatas, 10 dientes de ajo, 10 cebollas. ¿Cuantas recetas de dos ingredientes (no necesariamente distintos) se pueden cocinar?
+
 <!--
 id: ejercicios_estadistica_20191117
 tags: estadistica, teaching, ejercicios
@@ -41,20 +42,22 @@ date: 17/11/2019
 -->
 
 <!--
-1. variaciones sin rep v_10,2
-2. combinaciones sin rep. c100,2
-3. combinaciones sin rep. c5,3
-4. combinaciones sin rep c10,4
-5. combinaciones sin rep c10,4 * c5,2
-6. combinaciones sin rep c15,2
+1. variaciones sin rep v_10,3
+2. combinaciones sin rep. c1000,3
+3. vr_14,3
+4. vr_10,5
+5. combinaciones sin rep. c5,3
+6. combinaciones sin rep c10,4
+7. combinaciones sin rep c15,2
 
 ejercicio2
-1. vr
-2. vr
-3. p^9_3,2,4
+1. p^9_3,2,4
 
 ejercicio3
 c50,5 * c12,2
+
+ejercicio4
+combianciones con rep cr_5,3
 
 nchoosek(50,5)*nchoosek(12,2)
 ans =  139838160
