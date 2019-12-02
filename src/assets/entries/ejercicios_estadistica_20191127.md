@@ -48,17 +48,17 @@ Calcular la probabilidad de obtener el tesoro, es decir **primero vencer al trol
 #### Ejercicio 4
 La probabilidad de que un estudiante falte a clase un viernes es de 1/10. Puesto que hay 5 días de clase, la probabilidad de que sea viernes es de 1/5. Calcular la probabilidad de que el estudiante falte a clase hoy sabiendo que hoy es viernes.
 
-#### Ejercicio 4
+#### Ejercicio 5
 El 20% de la población tiene un iphone. De entre quienes tienen un iphone, el 10% tiene un iphone X. Calcular la probabilidad de tener un iphone X sabiendo que tenemos algún iphone. *pista: decir el 20% de la población y decir probabilidad 0.2 es lo mismo*
 
-#### Ejercicio 5
+#### Ejercicio 6
 1. Un jugador de un juego de rol, en una jugada concreta tiene que sumar 4 o más en una tirada de un dado de 10 caras para vencer a su oponente. Calcular la probabilidad de que esto ocurra.
 
 2. 15 personas se sientan en una mesa circular. Calcular la probabilidad de que dos de ellas se sienten una al lado de la otra.
 
 3. Al lanzar tres dados, calcular la probabilidad de obtener algún cuatro.
 
-#### Ejercicio 6
+#### Ejercicio 7
 
 Se extraen al azar, sucesivamente y sin devolución, 3 bolas de una urna en la que hay 6 bolas azules, 4 negras y 2 rojas. Calcular:
 1. Probabilidad de las 3 bolas extraídas sean azules.
