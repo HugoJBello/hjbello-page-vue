@@ -6,6 +6,15 @@
 
 diferencia media - mediana - moda sueldo en españa:
 
+$x^2$
+
+$\int^2_3$ 
+
+$macro
+\f{x} = \int_{-\infty}^\infty
+    \hat \f\xi\,e^{2 \pi i \xi x}
+    \,d\xi$
+
 https://www.ine.es/jaxiT3/Datos.htm?t=10882
 
 https://www.eleconomista.es/economia/noticias/9169491/05/18/Analisis-de-los-salarios-en-Espana-la-remuneracion-mas-frecuente-cae-hasta-los-16497-euros.html
