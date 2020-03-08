@@ -22,8 +22,8 @@ const extractTag = (str) => {
 
 
 
-filesPath = './src/assets/entries/';
-outputFile = './src/assets/entries.json';
+filesPath = './public/entries_content/entries/';
+outputFile = './public/entries_content/index.json';
 
 let configFile = []
 
@@ -32,10 +32,10 @@ const files = fs.readdirSync(filesPath);
 files.forEach((file) => {
     console.log(file);
     const data = extractTag(fs.readFileSync(filesPath + file, 'utf8'))
-    if (data.config !== "true"){
-        data.id = file.replace(".md","")
+    if (data && data.config !== "true"){
+        data.id = file
+        data.filename = file
         configFile.push(data);
-
     }    
 });
 
@@ -44,11 +44,11 @@ const getDate = (string) => {
     return new Date(parts[2], parts[1] - 1, parts[0]); 
 }
 
+
 configFile = configFile.sort((a, b) => {
     console.log(getDate(b.date))
     return getDate(b.date) - getDate(a.date);
 });
 
-fs.writeFile(outputFile, JSON.stringify({entries:configFile}), 'utf8', ()=>{});
 
-console.log(configFile);
+fs.writeFile(outputFile, JSON.stringify({entries:configFile}), 'utf8', ()=>{});

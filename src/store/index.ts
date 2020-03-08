@@ -1,13 +1,11 @@
 import Vue from 'vue'
 import Vuex from 'vuex'
-import entries from "@/assets/entries.json";
 
 Vue.use(Vuex)
 
 export default new Vuex.Store({
   state: {
     mainTags:["Coding", "Teaching", "Research"],
-    entries: entries.entries
 
   },
   mutations: {
@@ -17,5 +15,7 @@ export default new Vuex.Store({
   },
   actions: {
 
+  },
+  modules: {
   }
 })

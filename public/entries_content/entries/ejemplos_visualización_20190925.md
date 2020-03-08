@@ -6,6 +6,14 @@
 
 diferencia media - mediana - moda sueldo en españa:
 
+<div v-katex="'\\frac{a_i}{1+x}'"></div>
+
+$x^{3}$
+
+$\int^2_3$ 
+
+$f(x) = \int_{-\infty}^\infty\hat f(\xi)\,e^{2 \pi i \xi x}\,d\xi$
+
 https://www.ine.es/jaxiT3/Datos.htm?t=10882
 
 https://www.eleconomista.es/economia/noticias/9169491/05/18/Analisis-de-los-salarios-en-Espana-la-remuneracion-mas-frecuente-cae-hasta-los-16497-euros.html
@@ -25,4 +33,3 @@ tags: estadistica, clases, ejercicios
 title: Ejemplos visualización 20190925
 date: 24/09/2019
 -->
-

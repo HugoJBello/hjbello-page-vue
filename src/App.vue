@@ -1,63 +1,29 @@
 <template>
-  <div id="app">
+  <v-app id="inspire">
     <Navbar></Navbar>
-    <div class="entry">
-          <router-view />
-    </div>
-  </div>
+    <v-content>
+      <router-view/>
+    </v-content>
+   
+  </v-app>
 </template>
 
-<script>
-// @ is an alias to /src
-import Navbar from "@/components/Navbar.vue";
+<script lang="ts">
+import Vue from 'vue'
+import Navbar from './components/Navbar.vue';
+import { Component } from 'vue-property-decorator'
 
-export default {
-  name: "App",
-  components: {
+@Component({components: {
     Navbar
   }
-};
+  })
+export default class App extends Vue {
+
+  created(){
+  
+  }
+
+
+
+}
 </script>
-
-<style lang="scss">
-@media screen and (min-width: 300px) {
-  .entry {
-    margin-left: 50px;
-    margin-right: 25px;
-  }
-}
-@media screen and (min-width: 1000px) {
-  .entry {
-    margin-left: 300px;
-    margin-right: 100px;
-        max-width: 700px;
-  }
-}
-@media screen and (min-width: 1500px) {
-  .entry {
-    margin-left: 400px;
-    max-width: 700px;
-  }
-}
-
-.entry{
-  margin-top:20px;
-}
-
-#app {
-  font-family: "Avenir", Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  color: #2c3e50;
-}
-#nav {
-  padding: 30px;
-  a {
-    font-weight: bold;
-    color: #2c3e50;
-    &.router-link-exact-active {
-      color: #42b983;
-    }
-  }
-}
-</style>

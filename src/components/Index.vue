@@ -1,43 +1,53 @@
-<template>
-  <div class="index">
-    <div v-for="(value, index) in entries" v-bind:key="index">
-      <router-link :to="{ path: `entry/${value.id}`}" class="nav-link">
-        <div class="card text-center entry-title-card-index">
-          <div class="imgContainer" v-if="value.image">
-            <img :src=value.image class="card-img-top centered-and-cropped">
-          </div>
-          <div class="card-body">
-            <h5 class="card-title">{{ value.title }}</h5>
-          </div>
-          <div class="card-footer text-muted">{{ value.date }}</div>
-        </div>
-      </router-link>
-    </div>
-  </div>
-</template>
-<script>
+<template >
+<div>
+  <div v-for="(value, index) of entries" class="card" v-bind:key="index" >
+  <v-card
+    class="mx-auto"
+    max-width="600"
+    outlined
+    link
+    :to="{ path: `entry/${value.id}`}"
+  >
+    <v-list-item three-line>
+      <v-list-item-content>
+        <div class="overline mb-4">Entry</div>
+        <v-list-item-title class="headline mb-1">{{value.title}}</v-list-item-title>
+        <v-list-item-subtitle>{{value.date}}</v-list-item-subtitle>
+      </v-list-item-content>
 
-export default {
-  name: "index",
-  components: {},
-  computed: {
-    entries() {
-      return this.$store.state.entries;
-    },
-  },
-  mounted() {
-    }
-};
+      <v-img v-if="value.image"
+            height="200"
+            width="200"
+            :src=value.image
+          ></v-img>
+    </v-list-item>
+
+    <v-card-actions>
+      
+    </v-card-actions>
+  </v-card>
+      <br>
+
+  </div>
+</div>
+</template>
+
+<script lang="ts">
+import Vue from 'vue'
+import { Component, Prop } from 'vue-property-decorator'
+
+@Component({components: {}
+  })
+export default class Home extends Vue {
+@Prop({default: []})
+  entries: any
+}
 </script>
 
 <style scoped lang="scss">
+.card{
+  margin-top:"10px";
 
-
-.entry-title-card-index{
-  margin-bottom:20px;
-  margin-left:10px;
-  margin-right: 10px;
-  margin-top:10px;
 }
 
 </style>
