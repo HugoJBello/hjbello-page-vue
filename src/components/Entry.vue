@@ -19,7 +19,6 @@ export default class Entry extends Vue {
   entryId:any
   async created() {}
   mounted() {
-    console.log(this.entryId)
     getEntry(this.entryId.toLowerCase()).then(text => {
       this.entryText = text;
     });

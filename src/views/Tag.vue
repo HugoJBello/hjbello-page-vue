@@ -18,7 +18,6 @@ export default class Tag extends Vue {
   public entries = []
   created(){
     getEntriesIndexTag(this.$route.params.tag.toLowerCase()).then(entries => {
-      console.log(entries)
       this.entries=entries.entries
       })
   }

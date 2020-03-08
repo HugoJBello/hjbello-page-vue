@@ -30,7 +30,6 @@ let configFile = []
 const files = fs.readdirSync(filesPath);
 
 files.forEach((file) => {
-    console.log(file);
     const data = extractTag(fs.readFileSync(filesPath + file, 'utf8'))
     if (data && data.config !== "true"){
         data.id = file
@@ -46,7 +45,6 @@ const getDate = (string) => {
 
 
 configFile = configFile.sort((a, b) => {
-    console.log(getDate(b.date))
     return getDate(b.date) - getDate(a.date);
 });
 

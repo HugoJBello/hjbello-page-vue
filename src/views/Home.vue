@@ -19,7 +19,6 @@ export default class Home extends Vue {
   public entries = []
   created(){
     getEntriesIndex().then(entries => {
-      console.log(entries)
       this.entries=entries.entries
       })
   }
