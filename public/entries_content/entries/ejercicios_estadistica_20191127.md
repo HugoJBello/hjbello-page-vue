@@ -70,7 +70,7 @@ Se extraen al azar, sucesivamente y sin devolución, 3 bolas de una urna en la q
 
 <!--
 id: ejercicios_estadistica_20191127
-tags: estadistica, teaching, ejercicios
+tags: estadistica, teaching, ejercicios, hidden
 title: Ejercicios sencillos 2019-11-27
 date: 27/11/2019
 -->

@@ -8,13 +8,26 @@ export const getEntry = (filename:any) => {
   return axios.get(url).then(response => response.data);
 }
 
-export const getEntriesIndex = () => {
-  const url = `${apiUrl}entries_content/index.json`;
-  return axios.get(url).then(response => {return response.data});
+const filterHidden = (entries: any) => {
+  return entries.filter((entry:any) => entry.tags.indexOf("hidden")<0)
 }
 
-export const getEntriesIndexTag = async (tag:string) => {
+export const getEntriesIndex = async (limit:number=10, skip:number=0, includeHidden:boolean = false) => {
+  const url = `${apiUrl}entries_content/index.json`;
+  const entries: Object[] = await  axios.get(url).then(response => {return response.data.entries});
+  if (includeHidden){
+    entries.splice(skip, limit)
+  }
+  return filterHidden(entries).splice(skip, limit)
+}
+
+export const getEntriesIndexTag = async (tag:string, limit:number=10, skip:number=0, includeHidden:boolean = false) => {
   const url = `${apiUrl}entries_content/index.json`;
   const entries:any = await axios.get(url).then(response => {return response.data.entries});
-  return entries.filter((entry:any) =>entry.tags.indexOf(tag)>-1)
+  const entriesFilter =  entries.filter((entry:any) =>entry.tags.indexOf(tag)>-1)
+  if (includeHidden){
+    entriesFilter.splice(skip, limit)
+  }
+  return filterHidden(entriesFilter).splice(skip, limit)
 }
+

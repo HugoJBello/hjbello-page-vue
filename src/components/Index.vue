@@ -6,7 +6,7 @@
     max-width="600"
     outlined
     link
-    :to="{ path: `entry/${value.id}`}"
+    :to="{ path: `/entry/${value.id}`}"
   >
     <v-list-item three-line>
       <v-list-item-content>
@@ -29,19 +29,44 @@
       <br>
 
   </div>
+  <div class="text-center">
+    <v-pagination
+      v-model="page"
+      :length="6"
+    ></v-pagination>
+  </div>
 </div>
 </template>
 
 <script lang="ts">
 import Vue from 'vue'
-import { Component, Prop } from 'vue-property-decorator'
+import { Component, Prop, Watch, Emit } from 'vue-property-decorator'
 
 @Component({components: {}
   })
-export default class Home extends Vue {
+export default class Index extends Vue {
 @Prop({default: []})
   entries: any
+@Prop({default: 1})
+  currentPage: any
+
+@Emit('pageChanged')
+pageChanged(page:number) {
+  console.log(page)
 }
+
+@Watch('page')
+  onPropertyChanged() {
+    this.pageChanged(this.page)
+  }
+
+
+public page:number = this.currentPage
+
+
+}
+
+
 </script>
 
 <style scoped lang="scss">

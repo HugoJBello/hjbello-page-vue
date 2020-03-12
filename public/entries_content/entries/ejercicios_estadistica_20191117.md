@@ -38,7 +38,7 @@ Para obtener un premio de primera categoría, Hay que en el boleto ganador deben
 
 <!--
 id: ejercicios_estadistica_20191117
-tags: estadistica, teaching, ejercicios
+tags: estadistica, teaching, ejercicios, hidden
 title: Ejercicios sencillos 2019-11-17
 date: 17/11/2019
 -->

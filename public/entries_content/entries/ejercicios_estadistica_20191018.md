@@ -73,7 +73,7 @@ segunda 5, ¿Cual de las dos está más dispersa?
 
 <!--
 id: ejercicios_estadistica_20191017
-tags: estadistica, teaching, ejercicios
+tags: estadistica, teaching, ejercicios, hidden
 title: Ejercicios sencillos 2019-10-17
 date: 17/10/2019
 -->

@@ -29,7 +29,7 @@ https://www.iqcomparisonsite.com/iqtable.aspx
 https://www.edubloxtutor.com/iq-test-scores/
 
 <!--
-tags: estadistica, clases, ejercicios
+tags: estadistica, clases, ejercicios, hidden
 title: Ejemplos visualización 20190925
 date: 24/09/2019
 -->

@@ -44,7 +44,7 @@ amarillo rosa azul rojo verde
 
 <!--
 id: ejercicios_estadistica_20191007
-tags: estadistica, teaching, ejercicios
+tags: estadistica, teaching, ejercicios, hidden
 title: Ejercicios sencillos 2019-10-07
 date: 07/10/2019
 -->

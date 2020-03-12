@@ -20,7 +20,7 @@ el mínimo es 142, el máximo 188. **calcular los intervalos sobre los que agrup
 
 <!--
 id: ejercicios_estadistica_20190925
-tags: estadistica, teaching, ejercicios
+tags: estadistica, teaching, ejercicios, hidden
 title: Ejercicios sencillos 20190925
 date: 24/09/2019
 -->

@@ -1,7 +1,7 @@
 [apuntes](https://drive.google.com/open?id=1V8Uj19PplljnKrPzBaLVZlzSS_lq0DcB)
 <!--
 id: fundamentos_matematicos_infantil_20200225
-tags: teaching, ejercicios
+tags: teaching, ejercicios, hidden
 title: Ejercicios Fundamentos Matemáticos Infantil 20200225
 date: 24/02/2020
 -->

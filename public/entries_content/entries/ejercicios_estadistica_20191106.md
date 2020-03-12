@@ -66,7 +66,7 @@ Usar calcular <span v-katex="'6\\choose 3'"></span>,  <span v-katex="'6\\choose 
 
 <!--
 id: ejercicios_estadistica_20191105
-tags: estadistica, teaching, ejercicios
+tags: estadistica, teaching, ejercicios, hidden
 title: Ejercicios sencillos 2019-11-05
 date: 05/11/2019
 -->

@@ -36,7 +36,7 @@ calcular:
 - la desviación media, la varianza
 <!--
 id: ejercicios_estadistica_20191011
-tags: estadistica, teaching, ejercicios
+tags: estadistica, teaching, ejercicios, hidden
 title: Ejercicios sencillos 2019-10-11
 date: 11/10/2019
 -->

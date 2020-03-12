@@ -6,7 +6,7 @@
 
 <script lang="ts">
 import Vue from "vue";
-import { Component, Prop} from "vue-property-decorator";
+import { Component, Prop, Watch} from "vue-property-decorator";
 import Index from "../components/Index.vue";
 import { getEntry } from "../services/entryService";
 
@@ -15,14 +15,26 @@ import { getEntry } from "../services/entryService";
 export default class Entry extends Vue {
   private entryText: string = "";
   private markdownText: string = "";
+
   @Prop()
   entryId:any
+
+    @Watch('$route.params')
+    onPropertyChanged() {
+      this.getCurrentEntry()
+    }
+
   async created() {}
   mounted() {
+    this.getCurrentEntry()
+  }
+
+  getCurrentEntry(){
     getEntry(this.entryId.toLowerCase()).then(text => {
       this.entryText = text;
     });
   }
+
 }
 </script>
 
