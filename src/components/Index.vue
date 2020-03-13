@@ -52,7 +52,6 @@ export default class Index extends Vue {
 
 @Emit('pageChanged')
 pageChanged(page:number) {
-  console.log(page)
 }
 
 @Watch('page')
