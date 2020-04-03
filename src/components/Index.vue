@@ -23,7 +23,7 @@
     </v-list-item>
 
     <v-card-actions>
-      
+
     </v-card-actions>
   </v-card>
       <br>
@@ -52,6 +52,7 @@ export default class Index extends Vue {
 
 @Emit('pageChanged')
 pageChanged(page:number) {
+  page;
 }
 
 @Watch('page')
